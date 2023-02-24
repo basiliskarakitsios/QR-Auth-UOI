@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".ScanActivity">
+
+    <com.budiyev.android.codescanner.CodeScannerView
+        android:id="@+id/scanner_view"
+        android:layout_width="match_parent"
+        android:layout_height="400dp"
+        app:autoFocusButtonColor="@android:color/white"
+        app:autoFocusButtonVisible="true"
+        app:flashButtonColor="@android:color/white"
+        app:flashButtonVisible="true"
+        app:maskColor="#6C000000" />
+
+    <TextView
+        android:id="@+id/fullnameView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/scanner_view"
+        android:layout_marginLeft="16sp"
+        android:layout_marginTop="10sp"
+        android:background="#FFFFFF"
+        android:text="Full Name: N/A"
+        android:singleLine="false"
+        android:textColor="@android:color/black"
+        android:textSize="24sp" />
+
+    <TextView
+        android:id="@+id/schoolIDView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/fullnameView"
+        android:layout_marginLeft="16sp"
+        android:layout_marginTop="5sp"
+        android:background="#FFFFFF"
+        android:text="School ID: N/A"
+        android:textColor="@android:color/black"
+        android:textSize="24sp" />
+
+    <ImageView
+        android:id="@+id/userImage"
+        android:layout_below="@+id/schoolIDView"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="20sp"
+        android:layout_width="200sp"
+        android:layout_height="200sp"
+        android:src="@drawable/profilepic"/>
+</RelativeLayout>

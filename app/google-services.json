@@ -1,0 +1,47 @@
+{
+  "project_info": {
+    "project_number": "995358517702",
+    "project_id": "thesisapp-40dff",
+    "storage_bucket": "thesisapp-40dff.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:995358517702:android:03ee046debcc63c4cc6ac7",
+        "android_client_info": {
+          "package_name": "com.example.appv2qrscanner"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "995358517702-m4s25s2g89s1r90jv40geeohh9tlf7s2.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.example.appv2qrscanner",
+            "certificate_hash": "776158b2d256a74a2ed3f1aa5e5d2d85559898c1"
+          }
+        },
+        {
+          "client_id": "995358517702-r000bdn0qu6jc3deniclcleda1hbf5li.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDYQ2ztb_WIIZosptUgZxtus2GiHkxX6mU"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "995358517702-r000bdn0qu6jc3deniclcleda1hbf5li.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
